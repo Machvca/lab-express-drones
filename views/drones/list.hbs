@@ -5,7 +5,6 @@
 
 <div>
 
-  <h2>Lista de Pokemons</h2>
 
   {{#each response}}
 
@@ -13,6 +12,7 @@
     <h4><a href="/drones/{{this._id}}">{{this.name}}</a></h4>
     <h4><a href="/drones/{{this._id}}">{{this.propellers}}</a></h4>
     <h4><a href="/drones/{{this._id}}">{{this.maxSpeed}}</a></h4>
+     <h4><a href="/drones/<oneDroneId>/edit">edit page</a></h4>
 
   {{/each}}
 
